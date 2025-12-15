@@ -3,6 +3,10 @@ After cloning, run the following command to install dependencies
 
 ```go mod tidy```
 
+Move (or copy) the sample.env file to .env
+
+```[mv/cp] sample.env .env```
+
 Then, run the following command to build the docker image
 
 ```docker build . -t example-server```
